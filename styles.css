@@ -1022,6 +1022,15 @@ section {
         margin-bottom: 60px;
     }
 
+    .service-block.service-right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-block.service-right .service-image {
+        order: -1;
+    }
+
     .service-image {
         height: 280px;
         border-radius: 16px;

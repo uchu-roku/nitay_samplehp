@@ -1041,6 +1041,15 @@ section {
         padding: 0;
     }
 
+    .approach-bg {
+        opacity: 0.05;
+    }
+
+    .approach-lead {
+        font-size: 15px;
+        margin-bottom: 36px;
+    }
+
     .service-number {
         font-size: 42px;
     }

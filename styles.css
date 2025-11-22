@@ -922,10 +922,11 @@ section {
 
     .approach-steps {
         flex-direction: column;
+        gap: 20px;
     }
 
     .step-arrow {
-        transform: rotate(90deg);
+        display: none;
     }
 }
 
@@ -1094,14 +1095,24 @@ section {
     }
 
     .step-item {
-        padding: 32px 24px;
+        padding: 28px 24px;
         border-radius: 16px;
+        width: 100%;
+    }
+
+    .step-item h4 {
+        font-size: 16px;
+    }
+
+    .step-item p {
+        font-size: 14px;
     }
 
     .step-number {
-        width: 56px;
-        height: 56px;
-        font-size: 22px;
+        width: 52px;
+        height: 52px;
+        font-size: 20px;
+        margin-bottom: 14px;
     }
 
     .record-item {
